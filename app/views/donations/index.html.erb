@@ -1,0 +1,7 @@
+<h1>List Of Companies</h1>
+
+<ul>
+  <%= @donations.each do |company| %>
+    <li><%= company.name %></li>
+    <% end %>
+</ul>
